@@ -1,0 +1,255 @@
+.root{
+    -fx-background-color: azure;
+    -fx-background-size: cover, auto;
+    -fx-font-size: 12pt;
+}
+
+#pdTitle {
+    -fx-text-fill: greenyellow;
+    -fx-font-family: 'Times New Roman';
+    -fx-font-size: 12pt;
+}
+#Welcome{
+    -fx-font-fill: greenyellow;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 32pt;
+    -fx-translate-x: 450;
+    -fx-translate-y: 450;
+}
+#MainTitle {
+    -fx-font-fill: mediumblue;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 16pt;
+    -fx-text-alignment: center;
+    -fx-translate-x: 715;
+    -fx-translate-y: 50;
+}
+#SaveButton{
+    -fx-translate-x: 205;
+}
+#choiceBox{
+    -fx-translate-x: 700;
+    -fx-translate-y: 650;
+}
+#PLAYitem, #ABOUTitem, #EXITitem {
+    -fx-opacity: 0.4; -fx-fill: cornflowerblue;
+}
+
+#PLAYtext, #ABOUTtext, #EXITtext{
+    -fx-text-fill: #000000;
+    -fx-font-size: 15pt;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Times New Roman'
+}
+
+.Canvas{
+    -fx-pref-width: 400;
+    -fx-pref-height: 400;
+    -fx-background-color: grey;
+}
+.button{
+    -fx-pref-height: 60;
+    -fx-pref-width: 200;
+    -fx-font-size: 12;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-background-color: silver;
+    -fx-opacity: 0.8;
+    -fx-font-weight: bold;
+}
+#MyCanvas{
+    -fx-pref-height: 500;
+    -fx-pref-width: 500;
+    -fx-background-color: lightgrey;
+    -fx-translate-x: 100;
+    -fx-translate-y: 100;
+}
+#MenuBox{
+    -fx-translate-x: 675;
+    -fx-translate-y: 100;
+}
+#LaunchButton{
+    -fx-background-color: goldenrod;
+    -fx-text-fill: black;
+    -fx-border-color: white;
+    -fx-translate-x: 650;
+    -fx-translate-y: 800;
+}
+#CS-menuBar{
+    -fx-alignment: center-left;
+}
+#CS-ColorConfigs{
+    -fx-translate-y: 825;
+    -fx-translate-x: 100;
+}
+#ToggleButton{
+    -fx-pref-height: 60;
+    -fx-pref-width: 200;
+    -fx-font-size: 12;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-background-color: silver;
+    -fx-opacity: 0.8;
+    -fx-font-weight: bold;
+}
+#selected{
+    -fx-pref-height: 60;
+    -fx-pref-width: 200;
+    -fx-font-size: 12;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-background-color: rosybrown;
+    -fx-opacity: 0.8;
+    -fx-font-weight: bold;
+}
+#LayoutButton{
+    -fx-pref-height:60;
+    -fx-pref-width: 100;
+}
+#CS-Layouts{
+    -fx-translate-y: 650;
+    -fx-translate-x: 100;
+    -fx-spacing: 5;
+}
+#pane{
+    -fx-effect: dropshadow(three-pass-box,black, 30, 0.5, 0, 0);
+}
+#deadCell{
+    -fx-fill: black;
+    -fx-stroke: black;
+}
+#slider{
+    -fx-translate-x: 450;
+    -fx-translate-y: 25;
+}
+#ViewTextTitle{
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 14pt;
+    -fx-translate-x: 400;
+    -fx-translate-y: 650;
+}
+#simtitle{
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 14pt;
+    -fx-translate-x: 20;
+    -fx-translate-y: 20;
+}
+#description{
+    -fx-text-fill: navy;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 12pt;
+    -fx-translate-x: 20;
+    -fx-translate-y: 75;
+}
+#author{
+    -fx-text-fill: black;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 12pt;
+    -fx-translate-x: 20;
+    -fx-translate-y: 48;
+}
+#BackgroundPane{
+    -fx-fill: gainsboro;
+    -fx-stroke: mediumblue;
+    -fx-translate-y: 625;
+    -fx-translate-x: 350;
+    -fx-pref-width: 500;
+    -fx-pref-height: 150;
+    -fx-opacity: 0.2;
+}
+#GOLdefault-alive{
+    -fx-shape: rectangle;
+    -fx-stroke: black;
+    -fx-fill: goldenrod;
+    -fx-cell-size: 30;
+}
+#GOLdefault-dead{
+    -fx-shape: rectangle;
+    -fx-stroke: black;
+    -fx-fill: darkgrey;
+    -fx-cell-size: 30;
+}
+#Percdefault-closed{
+    -fx-shape: rectangle;
+    -fx-stroke: black;
+    -fx-fill: saddlebrown;
+    -fx-cell-size: 30;
+}
+#Percdefault-open{
+    -fx-shape: rectangle;
+    -fx-stroke: black;
+    -fx-fill: burlywood;
+    -fx-cell-size: 30;
+}
+#Percdefault-fill{
+    -fx-shape: rectangle;
+    -fx-stroke: black;
+    -fx-fill: aquamarine;
+    -fx-cell-size: 30;
+}
+#RPSdefault-rock{
+    -fx-shape: rectangle;
+    -fx-fill: darkgrey;
+    -fx-cell-size: 30;
+}
+#RPSdefault-scissors{
+    -fx-shape: rectangle;
+    -fx-fill: limegreen;
+    -fx-cell-size: 30;
+}
+#RPSdefault-paper{
+    -fx-shape: rectangle;
+    -fx-fill: linen;
+    -fx-cell-size: 30;
+}
+#SOFdefault-burning{
+    -fx-shape: rectangle;
+    -fx-image: url("fire.png");
+    -fx-image-repeat: stretch;
+    -fx-cell-size: 30;
+}
+#SOFdefault-burnt{
+    -fx-shape: rectangle;
+    -fx-fill: black;
+    -fx-cell-size: 30;
+}
+#SOFdefault-unburnt{
+    -fx-shape: rectangle;
+    -fx-fill: yellowgreen;
+    -fx-cell-size: 30;
+}
+#SEGdefault-empty{
+    -fx-shape: rectangle;
+    -fx-fill: whitesmoke;
+    -fx-stroke: black;
+    -fx-cell-size: 30;
+}
+#SEGdefault-red{
+    -fx-shape: rectangle;
+    -fx-fill:firebrick;
+    -fx-stroke: black;
+    -fx-cell-size: 30;
+}
+#SEGdefault-blue{
+    -fx-shape: rectangle;
+    -fx-fill: steelblue;
+    -fx-stroke: black;
+    -fx-cell-size: 30;
+}
+#PPdefault-water{
+    -fx-shape: rectangle;
+    -fx-fill: lightskyblue;
+    -fx-cell-size: 30;
+}
+#PPdefault-shark{
+    -fx-shape: rectangle;
+    -fx-fill: lightslategrey;
+    -fx-cell-size: 30;
+}
+#PPdefault-fish{
+    -fx-shape: rectangle;
+    -fx-fill: lightgreen;
+    -fx-cell-size: 30;
+}
